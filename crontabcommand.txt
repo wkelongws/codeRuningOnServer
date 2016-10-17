@@ -1,0 +1,5 @@
+#minute hour day month weekday. The following means it will run the command every day at 1 AM
+0 01 * * * hadoop jar /johir/INRIX/output/Yesterday/inrixtohdfs.jar
+
+#To run a shell script the path to the shellsctipr to be provided like following
+0 01 * * * hadoop jar /path/script.sh
